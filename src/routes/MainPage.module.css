@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left_container {
+  width: 50%;
+  height: 100%;
+  background-image: url('https://web-resource.tamburins.com/assets/image/main/toilet_fragrance/pc_mainHero_left.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.right_container {
+  width: 50%;
+  height: 100%;
+  background-image: url('https://web-resource.tamburins.com/assets/image/main/toilet_fragrance/pc_mainHero_right.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
