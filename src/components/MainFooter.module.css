@@ -1,0 +1,20 @@
+.container {
+  padding: 5rem 0 3rem;
+}
+
+.inner {
+  height: 10.2rem;
+}
+
+.content {
+  color: #535353;
+  text-align: center;
+}
+
+.content :nth-child(2) {
+  margin-top: 0.5rem;
+}
+
+.content :last-child {
+  margin-top: 2rem;
+}
