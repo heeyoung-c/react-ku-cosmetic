@@ -3,20 +3,18 @@
   height: 100vh;
 }
 
-.left_container {
-  width: 50%;
+.inner {
+  width: 100%;
   height: 100%;
-  background-image: url('https://web-resource.tamburins.com/assets/image/main/toilet_fragrance/pc_mainHero_left.jpg');
+  background-image: url('https://user-images.githubusercontent.com/76432731/283992913-fcdd32ab-1176-4673-bd85-31230a0bb120.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.right_container {
-  width: 50%;
-  height: 100%;
-  background-image: url('https://web-resource.tamburins.com/assets/image/main/toilet_fragrance/pc_mainHero_right.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.button {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50rem;
 }
