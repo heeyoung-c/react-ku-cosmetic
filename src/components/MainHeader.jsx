@@ -7,10 +7,10 @@ import classes from './MainHeader.module.css'
 
 const MainHeader = () => {
   return (
-    <header className={classes.container}>
-      <div className={classes.inner}>
-        <div className={classes.logo}>toi,vous</div>
-        <div className={classes.right_box}>
+    <header className={classes['container']}>
+      <div className={classes['inner']}>
+        <div className={classes['logo']}>toi,vous</div>
+        <div className={classes[`right-box`]}>
           <div>
             <RxPerson />
           </div>

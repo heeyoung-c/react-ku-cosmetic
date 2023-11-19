@@ -5,9 +5,9 @@ import classes from './MainFooter.module.css'
 const MainFooter = () => {
   return (
     <>
-      <footer className={classes.container}>
-        <div className={classes.inner}>
-          <div className={classes.content}>
+      <footer className={classes[`container`]}>
+        <div className={classes[`inner`]}>
+          <div className={classes['content']}>
             <div>
               주)프래그런스빅데이터 | 사업자등록번호: XXX-XX-XXXXX | 대표자:
               건국인 | 서울특별시 건국대 주소 | 대표번호: 1000-1000 | 이메일:

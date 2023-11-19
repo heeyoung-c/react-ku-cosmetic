@@ -32,7 +32,7 @@
   font-weight: 600;
 }
 
-.right_box {
+.right-box {
   display: flex;
   margin-right: 1rem;
   border: 0.1rem solid green;
@@ -40,6 +40,6 @@
   font-size: 1.6rem;
 }
 
-.right_box :first-child {
+.right-box :first-child {
   margin-right: 1rem;
 }
