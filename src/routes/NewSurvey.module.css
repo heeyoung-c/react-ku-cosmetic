@@ -1,0 +1,73 @@
+.backdrop {
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  z-index: 1;
+
+  position: relative;
+
+  width: 100rem;
+  height: 60rem;
+
+  background-color: #fff;
+
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.cancel-button {
+  position: absolute;
+
+  top: 1rem;
+  right: 1rem;
+
+  font-size: 4rem;
+}
+
+.cancel-button :hover {
+  color: #ff0000;
+  transition: 0.2s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  width: 40rem;
+
+  transform: translate(-50%, 0);
+}
+
+.left-button {
+  font-size: 4rem;
+}
+
+.left-button :hover {
+  color: #a2887d;
+  transition: 0.2s;
+}
+
+.right-button {
+  font-size: 4rem;
+}
+
+.right-button :hover {
+  color: #a2887d;
+  transition: 0.2s;
+}

@@ -10,11 +10,12 @@
   font-weight: 800;
 
   border-radius: 0.5rem;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .container:hover {
-  background-color: #a9bfe8;
+  background-color: #a2887d;
+  color: #ffffff;
 
   transition: 0.3s;
 }
