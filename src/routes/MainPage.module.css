@@ -1,12 +1,13 @@
 .container {
   display: flex;
+
   height: 100vh;
 }
 
 .inner {
   width: 100%;
   height: 100%;
-  background-image: url('https://user-images.githubusercontent.com/76432731/283992913-fcdd32ab-1176-4673-bd85-31230a0bb120.jpg');
+  background-image: url('https://user-images.githubusercontent.com/76432731/284048392-ad1c438a-7c20-4401-86c1-79f5271ea351.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

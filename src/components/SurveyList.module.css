@@ -1,0 +1,49 @@
+.container {
+  width: 90rem;
+  height: 48rem;
+  margin: 6rem auto 0;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 2rem;
+
+  font-size: 2rem;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+
+  height: 43rem;
+}
+
+.result {
+  position: absolute;
+  left: 15%;
+  width: 70rem;
+  height: 40rem;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.survey {
+  width: 40rem;
+  height: 20rem;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.survey:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
